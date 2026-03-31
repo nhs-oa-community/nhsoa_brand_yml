@@ -1,0 +1,65 @@
+meta:
+  name: 
+    short: NHS-OA
+    full: NHS Open Analytics Community
+  links:
+    home: 
+    github: https://github.com/nhs-oa-community/nhsoa_brand_yml.git
+
+logo:
+  images:
+    logo_basic: 
+      path: logos/logo_basic.png
+      alt: NHS-OA Community logo
+    logo_email: 
+      path: logos/logo_email.png
+      alt: NHS-OA Community email banner
+  medium: 
+    light: logo_basic
+    dark: 
+  small: 
+    light: logo_basic
+    dark: 
+  large: 
+    light: logo_basic
+    dark: 
+  panel:
+    light:
+    dark:
+
+color:
+  palette:
+    blue: "#225faa"
+    light-blue: "#2596be"
+    lavender: "#7c9fcc"
+    yellow: "#f2c42b"
+    mid-yellow: "#fada6f"
+    pale-yellow: "#fdebb0"
+    light-grey: "#d5d9de"
+    dark-grey: "#7c7c7c"
+    black: "#1A1A1A"
+    white: "#F8F8F8"
+    red: "#DA291C"
+  primary: blue
+  secondary: mid-yellow
+  success: yellow
+  warning: light-grey
+  danger: red
+  background: white
+  foreground: black
+  info: lavender
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Arial
+      source: system
+  base:
+    family: Arial, sans-serif
+    line-height: 1.5
+  headings:
+    family: Arial, sans-serif
+    weight: 700
+    line-height: 1.25
+    color: blue
